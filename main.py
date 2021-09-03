@@ -17,13 +17,13 @@ def send_welcome(message):
   #reply_keyboard.row('May', 'Jun', 'Jul', 'Aug')
   #reply_keyboard.row('Sep', 'Oct', 'Nov', 'Dec')
 
-  reply_keyboard.row('Січ', 'Лют', 'Бер', 'Кві')
-  reply_keyboard.row('Тра', 'Чер', 'Лип', 'Сер')
-  reply_keyboard.row('Вер', 'Жов', 'Лис', 'Гру')
+  #reply_keyboard.row('Січ', 'Лют', 'Бер', 'Кві')
+  #reply_keyboard.row('Тра', 'Чер', 'Лип', 'Сер')
+  #reply_keyboard.row('Вер', 'Жов', 'Лис', 'Гру')
 
-  #reply_keyboard.row('👨‍👩‍👦 Friends & family', '👑 Money & career')
-  #reply_keyboard.row('💪 Health & body', '💡 Mind & creativity')
-  #reply_keyboard.row('⏳ Philosophy & spirituality')
+  reply_keyboard.row('👨‍👩‍👦 Friends & family', '👑 Money & career')
+  reply_keyboard.row('💪 Health & body', '💡 Mind & creativity')
+  reply_keyboard.row('⏳ Philosophy & spirituality')
   
   reply_keyboard.row('↩️ Back', 'Skip ➡️')
   bot.send_message(message.from_user.id, "What type it was?", reply_markup=reply_keyboard)
