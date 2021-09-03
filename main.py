@@ -1,4 +1,3 @@
-from replit import db
 import telebot
 
 bot = telebot.TeleBot('1933672908:AAHFFpPpDPSsNfDgLTsLKCwT7hxkUN9l4Jc')
